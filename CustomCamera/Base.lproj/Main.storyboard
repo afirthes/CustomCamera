@@ -57,8 +57,8 @@
                     </view>
                     <connections>
                         <outlet property="cameraView" destination="RnO-no-p7j" id="Ou7-XN-URE"/>
-                        <outlet property="recordButton" destination="Yj1-JC-rp0" id="rws-d3-W4C"/>
-                        <outlet property="thumbnail" destination="S5P-Dh-pSq" id="eYo-ja-loq"/>
+                        <outlet property="captureButton" destination="Yj1-JC-rp0" id="F9x-bq-1LR"/>
+                        <outlet property="thumbnailButton" destination="S5P-Dh-pSq" id="eYo-ja-loq"/>
                         <segue destination="I4e-ca-ics" kind="presentation" identifier="ShowVideoSegue" id="8I7-Ej-yUW"/>
                     </connections>
                 </viewController>
@@ -66,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="93.750000000000014"/>
         </scene>
-        <!--View View Controller-->
+        <!--Video View Controller-->
         <scene sceneID="ufY-h2-MOG">
             <objects>
-                <viewController id="I4e-ca-ics" customClass="ViewViewController" customModule="CustomCamera" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="I4e-ca-ics" customClass="VideoViewController" customModule="CustomCamera" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FFC-jf-RFh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

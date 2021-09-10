@@ -14,7 +14,7 @@
 		08F481D526EB4B0000FD6CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F481D326EB4B0000FD6CD8 /* LaunchScreen.storyboard */; };
 		08F481DD26EB4B2A00FD6CD8 /* Extension+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F481DC26EB4B2A00FD6CD8 /* Extension+URL.swift */; };
 		08F481DF26EB4BB400FD6CD8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F481DE26EB4BB300FD6CD8 /* CameraViewController.swift */; };
-		08F481E126EB4CCC00FD6CD8 /* ViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F481E026EB4CCC00FD6CD8 /* ViewViewController.swift */; };
+		08F481E126EB4CCC00FD6CD8 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F481E026EB4CCC00FD6CD8 /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		08F481D626EB4B0000FD6CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08F481DC26EB4B2A00FD6CD8 /* Extension+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+URL.swift"; sourceTree = "<group>"; };
 		08F481DE26EB4BB300FD6CD8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		08F481E026EB4CCC00FD6CD8 /* ViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewViewController.swift; sourceTree = "<group>"; };
+		08F481E026EB4CCC00FD6CD8 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				08F481DE26EB4BB300FD6CD8 /* CameraViewController.swift */,
-				08F481E026EB4CCC00FD6CD8 /* ViewViewController.swift */,
+				08F481E026EB4CCC00FD6CD8 /* VideoViewController.swift */,
 				08F481CE26EB4AFE00FD6CD8 /* Main.storyboard */,
 				08F481C826EB4AFE00FD6CD8 /* AppDelegate.swift */,
 				08F481DC26EB4B2A00FD6CD8 /* Extension+URL.swift */,
@@ -145,7 +145,7 @@
 			files = (
 				08F481DD26EB4B2A00FD6CD8 /* Extension+URL.swift in Sources */,
 				08F481DF26EB4BB400FD6CD8 /* CameraViewController.swift in Sources */,
-				08F481E126EB4CCC00FD6CD8 /* ViewViewController.swift in Sources */,
+				08F481E126EB4CCC00FD6CD8 /* VideoViewController.swift in Sources */,
 				08F481C926EB4AFE00FD6CD8 /* AppDelegate.swift in Sources */,
 				08F481CB26EB4AFE00FD6CD8 /* SceneDelegate.swift in Sources */,
 			);
